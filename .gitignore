@@ -1,0 +1,24 @@
+# 원천 데이터: 용량이 커서 저장소에 올리지 않음 (공공데이터포털에서 받아서 넣기)
+data/raw/*
+!data/raw/.gitkeep
+
+# API 인증키 등 비밀값
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+
+# OS / 편집기
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
